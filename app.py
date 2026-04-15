@@ -6,8 +6,8 @@ import json
 st.title("India Crime Dashboard")
 
 # Load data
-df = pd.read_csv(r"C:\Users\arka7\ncrb_crime_types_all_years.csv")
-df_pct = pd.read_csv(r"C:\Users\arka7\ncrb_crime_pct_changes.csv")
+df = pd.read_csv(r"ncrb_crime_types_all_years.csv")
+df_pct = pd.read_csv(r"ncrb_crime_pct_changes.csv")
 
 # Filters
 states = df['state'].unique()
