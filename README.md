@@ -1,17 +1,16 @@
-# 🚔 India Crime Dashboard
-
-An interactive data analytics dashboard to explore crime trends across India using NCRB datasets.
-
-🔗 Live App:
-https://india-crime-dashboard-s3nmqhlxqnxjze74yj2vdn.streamlit.app/
-
----
+# 🚔 India Crime Analytics Dashboard
 
 ## 📊 Overview
 
-This project transforms complex crime data into an interactive dashboard that allows users to explore patterns, trends, and insights across different states and crime categories in India.
+An interactive data analytics dashboard built using **Streamlit** to analyze crime trends across India based on NCRB datasets.
 
-The goal is to make large-scale public data understandable, visual, and actionable.
+The project processes multi-year crime data and provides insights into:
+
+* State-wise crime distribution
+* Year-over-year growth trends
+* Crime category analysis
+* Crimes against women
+* Geospatial crime mapping
 
 ---
 
@@ -19,131 +18,90 @@ The goal is to make large-scale public data understandable, visual, and actionab
 
 ### 🔍 Interactive Filters
 
-* Select multiple states
-* Choose specific crime types
-* Dynamic updates across all visualizations
+* Select states and crime types
+* Search functionality
+* Dynamic filtering across all views
 
-### 📈 Trend Analysis
+### 📈 Analytics
 
-* Year-wise crime trends
-* Growth comparison between 2021 and 2023
-* Multi-state comparison
+* Crime trends (2021–2023)
+* State ranking (Top/Bottom analysis)
+* Year-over-Year growth
+* Crime-type growth insights
 
-### 🗺️ State-Level Insights
+### 👩 Women Safety Analysis
 
-* State-wise crime ranking
-* Top 5 highest crime states
-* Safest states
+* Crimes against women by state
+* Percentage-based comparison
+* High-risk state identification
 
-### 📊 Percentage Change Analysis
+### 🗺️ Geo Visualization
 
-* Crime increase/decrease insights
+* Choropleth map of India
+* State-wise crime intensity
 
-### 🌍 Geospatial Visualization
+### 📊 Data Engineering
 
-* Interactive India choropleth map
-* Color-coded crime intensity
-
-### 📥 Data Export
-
-* Download filtered dataset as CSV
+* Cleaned and transformed raw NCRB datasets
+* Built reusable ETL pipelines
+* Generated multiple analytical datasets
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Streamlit
-* Pandas
-* Plotly
-* GeoJSON
+* **Python**
+* **Pandas**
+* **Streamlit**
+* **Plotly**
+* **GeoJSON**
 
 ---
 
 ## 📂 Project Structure
 
-india-crime-dashboard/
+```
+project/
+│
+├── data/
+│   ├── ncrb_master_dataset.csv
+│   ├── ncrb_total_trends.csv
+│   ├── ncrb_yoy_changes.csv
+│   ├── ncrb_crime_trends.csv
+│   ├── ncrb_women_analysis_2023.csv
 │
 ├── app.py
-├── ncrb_crime_types_all_years.csv
-├── ncrb_crime_pct_changes.csv
 ├── india_states.geojson
-├── requirements.txt
 └── README.md
+```
 
 ---
 
-## ⚙️ How to Run Locally
+## ⚙️ How to Run
 
-1. Clone the repository
-   git clone https://github.com/YOUR-USERNAME/india-crime-dashboard.git
-
-2. Navigate to folder
-   cd india-crime-dashboard
-
-3. Install dependencies
-   pip install -r requirements.txt
-
-4. Run the app
-   streamlit run app.py
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ---
 
 ## 📌 Key Insights
 
-* Crime varies significantly across states
-* Some states consistently report higher crime rates
-* Certain crime categories show growth trends
-* Map visualization reveals regional patterns
+* Identified states with highest crime growth
+* Highlighted trends in crimes against women
+* Built a complete crime analysis pipeline from raw data
 
 ---
 
-## 🧠 Challenges Faced
+## 🌟 Future Improvements
 
-* State name mismatch between dataset and GeoJSON
-* Deployment debugging on Streamlit Cloud
-* Designing multi-tab interactive dashboard
-
----
-
-## 💡 Learnings
-
-* Built end-to-end data dashboard
-* Improved data visualization & storytelling
-* Learned cloud deployment
-* Handled real-world messy datasets
-
----
-
-## 💼 Resume Description
-
-Developed and deployed an interactive India Crime Analytics Dashboard using Streamlit, Pandas, and Plotly, featuring multi-filter analysis, trend visualization, and geospatial mapping to uncover crime patterns across states.
-
----
-
-## 📸 Screenshots
-
-(Add screenshots here)
-
-Example:
-![Dashboard](images/dashboard.png)
-![Map](images/map.png)
-
----
-
-## 🔥 Future Improvements
-
-* Add ML-based crime prediction
-* District-level analysis
-* UI improvements
+* ML-based crime prediction
+* AI-generated insights
+* Real-time data integration
 
 ---
 
 ## 👨‍💻 Author
 
 Arkaprava Ghosh
-
----
-
-## ⭐ Support
-
-If you liked this project, give it a star ⭐
