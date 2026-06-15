@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=4FC3F7&center=true&vCenter=true&width=700&lines=India+Crime+Dashboard;8+Views.+All+States.+2001–2023." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=4FC3F7&center=true&vCenter=true&width=700&lines=India+Crime+Dashboard;8+Views.+All+States.+2021-2023." alt="Typing SVG" />
 
 <br/>
 
-**An interactive data analytics dashboard built on NCRB crime data (2001–2023), covering state rankings, crime type trends, women crime analysis, per capita rates, and growth-based trend extrapolation.**
+**An interactive data analytics dashboard built on NCRB crime data (2021–2023), covering state rankings, crime type trends, women crime analysis, per capita rates, and growth-based trend extrapolation.**
 
 <br/>
 
