@@ -90,8 +90,7 @@ streamlit run app.py
 india-crime-dashboard/
 ├── app.py                  # Main Streamlit app
 ├── crime_model.py          # Trend extrapolation logic
-├── data/
-│   └── crime_data.csv      # NCRB dataset (2001–2023)
+├── crime_data.csv          # NCRB dataset (2001–2023)
 ├── screenshots/
 └── requirements.txt
 ```
@@ -111,9 +110,9 @@ india-crime-dashboard/
 **Arkaprava Ghosh**  
 B.Tech IoT & Intelligent Systems, Manipal University Jaipur
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-link)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arkaprava-ghosh-9255a1251/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/arka562)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:arka792003@gmail.com)
 
 ---
 
